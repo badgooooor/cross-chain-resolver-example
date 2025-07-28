@@ -15,7 +15,7 @@ import {
     randomBytes,
     Wallet as SignerWallet
 } from 'ethers'
-import {uint8ArrayToHex, UINT_40_MAX} from '@1inch/byte-utils'
+import {uint8ArrayToHex, UINT_40_MAX} from './utils'
 import assert from 'node:assert'
 import {ChainConfig, config} from './config'
 import {Wallet} from './wallet'
